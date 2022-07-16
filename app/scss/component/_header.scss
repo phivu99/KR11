@@ -474,7 +474,7 @@ header {
     height: 100%;
     background: linear-gradient(153.06deg, #E6902B -0.31%, #A91B3D 99.69%);
     top: 0%;  
-    right: -300px; 
+    right: -500px; 
     bottom: 0;
     opacity: 0;
     overflow: hidden;
@@ -546,3 +546,22 @@ header {
   #toggle:checked + .hamburger  {
     background: unset;
   }
+
+//   .bg-wrapper + #toggle:checked + .hamburger + .nav  {
+//     opacity: 0;
+//     pointer-events: none;
+//     display: none;
+//   }
+
+.mark-1 {
+    position: absolute;
+    top: 5px;
+    opacity: 0.3;
+}
+
+.mark-2 {
+    position: absolute;
+    top: 150px;
+    left: -5px;
+    opacity: 0.3;
+}

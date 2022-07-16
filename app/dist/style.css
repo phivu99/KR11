@@ -761,6 +761,26 @@ label.error {
   font-family: "Inter" sans-serif;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
 .mb-1 {
   margin-bottom: 1px;
 }
@@ -980,29 +1000,6 @@ a:hover, a:focus {
 }
 
 /* Header Fixed */
-.header_1.is-fixed {
-  position: fixed;
-  top: -200px;
-  left: 0;
-  width: 100%;
-  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
-  z-index: 99999;
-  background: var(--primary-color);
-  border: none;
-  opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.header_1.is-fixed #main-nav > ul > li > a {
-  color: var(--primary-color2);
-}
-.header_1.is-fixed #main-nav > ul > .current-menu-item > a {
-  color: var(--primary-color3);
-}
-
 .header_1.is-fixed.is-small {
   top: 0;
   opacity: 1;

@@ -123,7 +123,7 @@ audio:not([controls]) {
   display: none;
   height: 0;
 }
-
+svg,
 img {
   border-style: none;
 }
@@ -282,6 +282,7 @@ template {
   thead {
     display: table-header-group;
   }
+  svg,
   tr,
   img {
     page-break-inside: avoid;
@@ -430,7 +431,7 @@ pre {
 figure {
   margin: 0 0 1rem;
 }
-
+svg,
 img {
   vertical-align: middle;
 }

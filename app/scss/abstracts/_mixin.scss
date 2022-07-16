@@ -61,3 +61,9 @@
     color: #706C83;
     font-family: 'Open Sans', sans-serif;
 }
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
